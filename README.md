@@ -14,7 +14,7 @@ O VIGIA acompanha uma travessia sujeita a alagamento. Neste trabalho, avaliamos 
 |---|---|
 | [Notebook de Machine Learning](VIGIA-Machine-Learning.ipynb) | Preparação dos dados, treinamento, ajuste, avaliação e demonstração em dados de teste. |
 | [Slides da apresentação](VIGIA%20-%20Slides%20de%20Machine%20Learning.pdf) | Problema, metodologia, resultados e aplicação ao VIGIA. |
-| [Vídeo pitch](VIGIA%20-%20Pitch%20de%20Machine%20Learning.mp4) | Apresentação narrada de 4 min 25 s com uma previsão reproduzida do período de teste. |
+| [Vídeo pitch](https://drive.google.com/file/d/1oqzxu0OJ2w-q37rjfVNTdDrXExXVLibJ/view) | Apresentação de 4 min 58 s com problema, metodologia, resultados e demonstração das previsões. |
 
 ## Reproduzir o experimento
 
@@ -39,3 +39,7 @@ Definimos como alvo **pelo menos 10 mm acumulados nas três horas seguintes**. P
 Separamos treino em 2018–2021, validação em 2022–2023 e teste em 2024. Comparamos uma referência majoritária, regressão logística e Random Forest. Escolhemos a regressão logística pela maior precisão média (AP) na validação. No teste, ela obteve AP de 0,172, identificou 14 de 54 janelas positivas e gerou 58 falsos avisos. Janelas próximas podem representar o mesmo episódio de chuva.
 
 A avaliação usa precipitação regional estimada pela reanálise. O JSON permite apresentar o resultado no painel como reprodução histórica, com o horário da previsão e o acumulado posterior. A calibração do escore como probabilidade ficou fora da avaliação. A API de Python classifica o nível na travessia por regras aplicadas às medições do dispositivo.
+
+## Relação com os ODS
+
+A proposta se relaciona ao ODS 11 pela informação sobre travessias em áreas sujeitas a alagamento e ao ODS 13 pelo estudo de condições meteorológicas para apoiar a adaptação a eventos de chuva. O experimento avalia previsões históricas. O benefício efetivo para moradores depende de integração local e validação em campo.
