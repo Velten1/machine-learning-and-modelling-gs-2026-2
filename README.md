@@ -43,3 +43,9 @@ A avaliação usa precipitação regional estimada pela reanálise. O JSON permi
 ## Relação com os ODS
 
 A proposta se relaciona ao ODS 11 pela informação sobre travessias em áreas sujeitas a alagamento e ao ODS 13 pelo estudo de condições meteorológicas para apoiar a adaptação a eventos de chuva. O experimento avalia previsões históricas. O benefício efetivo para moradores depende de integração local e validação em campo.
+
+## Acesso aos materiais do projeto
+
+- [Código e arquivos desta disciplina](https://github.com/Velten1/machine-learning-and-modelling-gs-2026-2).
+- [Vídeo de Machine Learning — 4 min 58 s](https://drive.google.com/file/d/1oqzxu0OJ2w-q37rjfVNTdDrXExXVLibJ/view).
+- [Vídeo de Redes Neurais — 3 min 28 s](https://drive.google.com/file/d/1wOi7uYgDDL4ATO8dc5K9xpFv59M8KZYa/view).
